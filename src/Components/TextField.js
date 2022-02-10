@@ -1,9 +1,13 @@
 import React from 'react'
+import { useField } from 'formik';
 
-function TextField() {
+function TextField ({ label, ...props}) {
+  const [field, meta] = useField(props);
+  console.log(field, meta)
+
   return (
     <div>
-        TextField
+        <input type="text" />
     </div>
   );
 }
