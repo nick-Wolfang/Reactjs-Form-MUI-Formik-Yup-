@@ -1,7 +1,6 @@
 import React from 'react'
 import { useField, useFormik } from 'formik';
 import * as Yup from 'yup';
-import { FormControl, InputLabel, Input } from '@mui/material';
 import { Button, Box, TextField } from '@mui/material';
 import "./Signup.css"
 
@@ -73,17 +72,17 @@ function Signup() {
           <div className='inputs'>
             <TextField
               required
-              name="firstName" label="First Name" defaultValue="John" variant="standard"
+              name="firstName" label="First Name" variant="standard"
               onChange={formik.handleChange} value={formik.values.firstName}
             />
             <TextField
               required
-              name="lastName" label="Last Name" defaultValue="Doe" variant="standard"
+              name="lastName" label="Last Name" variant="standard"
               onChange={formik.handleChange} value={formik.values.lastName}
             />
             <TextField
               required
-              name="email" label="Email" type="email" defaultValue="John" variant="standard"
+              name="email" label="Email" type="email" variant="standard"
               onChange={formik.handleChange} value={formik.values.email}
             />
             <TextField
