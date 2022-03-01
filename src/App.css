@@ -11,3 +11,24 @@ input.form-control, input.form-control:focus {
   color: red;
   font-size: .6rem;
 }
+
+.title {
+  color: rgb(17, 0, 255);
+}
+
+.container {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(184, 255, 231);
+}
+
+.txt {
+  width: 20%;
+}
+
+.img {
+  overflow-x: hidden;
+  animation: animateDown infinite 1.5s;
+}

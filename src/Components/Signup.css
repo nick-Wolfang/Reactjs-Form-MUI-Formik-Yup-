@@ -1,0 +1,22 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    margin-bottom: 15px;
+    align-items: stretch;
+}
+
+.field {
+    margin-bottom: 60px;
+}
+
+.buttons{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.error {
+    color: red;
+    font-size: .6em;
+}
